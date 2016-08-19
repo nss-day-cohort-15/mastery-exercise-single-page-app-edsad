@@ -1,34 +1,41 @@
+
+</body>
+</html>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Carlot Quiz</title>
-
-  <link rel="stylesheet" type="text/css" href="quiz.css">
-  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
-
+  <title>Car Lot</title>
 </head>
 <body>
-    <h1>My page</h1>
-
-
-
-<!-- inventory of cars -->
-
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4" "background color:">left</div>
-            <div class="col-md-4" "background color:">middle</div>
-            <div class="col-md-4" "background color:">right</div>
-
-          </div>
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="quiz.css">
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Used Cars</a>
+      </div>
+      <div class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" id="userInput" class="form-control">
         </div>
+        <button type="button" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </nav>
+  <div class="output">
 
-<script src="quiz.js" type="text/javascript"></script>
-<script src="listener.js" type="text/javascript"></script>
+  </div>
+</div>
+
 <script src="carLot.js" type="text/javascript"></script>
+<script src="activateEvents.js" type="text/javascript"></script>
+<script src="selectCar.js" type="text/javascript"></script>
+<script src="quiz.js" type="text/javascript"></script>
+
 
 
 
 </body>
-
+</html>

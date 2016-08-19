@@ -1,26 +1,9 @@
-/*h1 {
-  color: blue;
-  text-align: center;
-}*/
 
-function populatePage (cars) {
-  // Loop over the inventory and populate the page
+.carCard {
+  border: 3px solid
+}
 
-  var container = document.querySelector("#bigContainer")
-  cars.forEach(function (car) {
-  container.innerHTML +=
-
-        `
-             <div class="cards col-md-3 col-md-offset-1" style="border-color:${car.color}">
-                <p><img src="${car.image}" alt="" height="200" width="250"></p>
-         <p><b>Make:</b> ${car.make}</p>
-         <p><b>Model:</b> ${car.model}</p>
-         <p><b>Year:</b> ${car.year}</p>
-         <p><b>Price:</b> ${car.price}</p>
-         <p><b>Color:</b> <span>${car.color}</span></p>
-         <p><b>Purchased:</b> ${car.purchased}</p>
-         <p ><b>Description:</b> <span class="enteredText">${car.description}</span></p>
-              </div>
-        `
-        // console.log(container);
-  })
+.pink {
+  border: 6px solid;
+  background-color: pink;
+}
